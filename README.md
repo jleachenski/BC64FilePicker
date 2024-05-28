@@ -1,24 +1,31 @@
-# bc64datepicker
+<h2>BC64DatePicker</h2>
+<hr />
+<p>
+    <h4>
+        A Vue.js Date Picker developed for getting documents from the client side and returning the document encoded in a base64 string.
+    </h4>
+</p>
 
-## Project setup
-```
-npm install
-```
+<h6>Download</h6>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+```bash download
+npm i @lsbrel/bc64datepicker
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+<h6>Usage</h6>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```html usage
+<script setup>
+  import BC64FilePicker from "@lsbrel/bc64filepicker";
+  import "@lsbrel/bc64filepicker/dist/bc64filepicker.css";
+</script>
+<template>
+  <BC64FilePicker
+    text="Clique aqui para enviar um arquivo"
+    text-color="#4b5563"
+    icon-color="#4b5563"
+    border-color="#cacaca"
+    @base64result="value => console.log(value)"
+  />
+</template>
+```

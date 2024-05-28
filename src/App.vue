@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BC64FilePicker text="Clique aqui para enviar um arquivo" text-color="#4b5563" icon-color="#4b5563"
+    border-color="#cacaca" @base64result="value => console.log(value)" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BC64FilePicker from './components/BC64FilePicker.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BC64FilePicker
   }
 }
 </script>
