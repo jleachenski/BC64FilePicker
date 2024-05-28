@@ -1,8 +1,9 @@
-<h2>BC64DatePicker</h2>
+![Alt text](public/logo.png)
+<h2>BC64FilePicker</h2>
 <hr />
 <p>
     <h4>
-        A Vue.js Date Picker developed for getting documents from the client side and returning the document encoded in a base64 string.
+        A Vue.js File Picker developed for getting documents from the client side and returning the document encoded in a base64 string.
     </h4>
 </p>
 
