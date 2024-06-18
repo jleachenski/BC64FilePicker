@@ -1,6 +1,10 @@
 <template>
-  <BC64FilePicker text="Clique aqui para enviar um arquivo" text-color="#4b5563" icon-color="#4b5563"
-    border-color="#cacaca" @base64result="value => console.log(value)" />
+  <BC64FilePicker 
+  text="Clique aqui para enviar um arquivo" 
+  text-color="#4b5563" 
+  icon-color="#4b5563"
+  border-color="#cacaca" 
+  @base64result="value => console.log(value)" />
 </template>
 
 <script>
