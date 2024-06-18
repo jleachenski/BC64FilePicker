@@ -3,7 +3,7 @@
 <hr />
 <p>
     <h4>
-        A Vue.js File Picker developed for getting documents from the client side and returning the document encoded in a base64 string.
+        A VueJS File Picker developed for getting documents from the client side and returning the document encoded in a base64 string.
     </h4>
 </p>
 
